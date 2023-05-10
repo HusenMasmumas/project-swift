@@ -1,1 +1,12 @@
-{}
+{
+    "TH": "TH",
+    "EN": "EN",
+    "homeMenu": {
+        "testFirst": "Test 1",
+        "testSecond": "Test 2",
+        "testThird": "Test 3",
+        "layoutStyle": "Layout & Style",
+        "connectAPI": "Connect API",
+        "formTable": "Form & Table"
+    }
+}

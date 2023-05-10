@@ -1,1 +1,12 @@
-{}
+{
+    "TH": "ไทย",
+    "EN": "อังกฤษ",
+    "homeMenu": {
+        "testFirst": "ทดสอบ 1",
+        "testSecond": "ทดสอบ 2",
+        "testThird": "ทดสอบ 3",
+        "layoutStyle": "การจัดการหน้าเว็บ",
+        "connectAPI": "การเชื่อมต่อ API",
+        "formTable": "การจัดการหน้าฟอร์ม"
+    }
+}

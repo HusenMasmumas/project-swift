@@ -1,0 +1,11 @@
+// --------- tailwind ---------
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// --------- scss ---------
+
+@import "_themecolor.scss";
+@import "_app.scss";
+@import "_antd.scss";
+@import "_custom.scss";
