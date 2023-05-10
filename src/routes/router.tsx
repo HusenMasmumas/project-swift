@@ -1,7 +1,10 @@
 import { RouteObject } from "react-router-dom";
 import HomePage from "views/home";
-import DefaultLayout from "layout";
+import TestFirst from "views/test_first";
+import TestThird from "views/test_third";
+import TestSecond from "views/test_second";
 import NotFoundPage from "views/404";
+import DefaultLayout from "layout";
 
 export interface IRouter {
   path: string;
@@ -27,17 +30,17 @@ export const routers: RouteObject[] = [
       },
       {
         path: "/home/test-first",
-        element: <HomePage />,
+        element: <TestFirst />,
         index: true,
       },
       {
         path: "/home/test-second",
-        element: <HomePage />,
+        element: <TestSecond />,
         index: true,
       },
       {
         path: "/home/test-third",
-        element: <HomePage />,
+        element: <TestThird />,
         index: true,
       },
     ],

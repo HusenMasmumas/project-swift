@@ -1,12 +1,14 @@
 {
     "TH": "TH",
     "EN": "EN",
+    "layoutStyle": "Layout & Style",
+    "connectAPI": "Connect API",
+    "formTable": "Form & Table",
+    "moveShape": "Move shape",
+    "movePosition": "Move position",
     "homeMenu": {
         "testFirst": "Test 1",
         "testSecond": "Test 2",
-        "testThird": "Test 3",
-        "layoutStyle": "Layout & Style",
-        "connectAPI": "Connect API",
-        "formTable": "Form & Table"
+        "testThird": "Test 3"
     }
 }

@@ -1,12 +1,14 @@
 {
     "TH": "ไทย",
     "EN": "อังกฤษ",
+    "layoutStyle": "การจัดการหน้าเว็บ",
+    "connectAPI": "การเชื่อมต่อ API",
+    "formTable": "การจัดการหน้าฟอร์ม",
+    "moveShape": "เลื่อนรูปแบบ",
+    "movePosition": "เปลี่ยนตำแหน่ง",
     "homeMenu": {
-        "testFirst": "ทดสอบ 1",
-        "testSecond": "ทดสอบ 2",
-        "testThird": "ทดสอบ 3",
-        "layoutStyle": "การจัดการหน้าเว็บ",
-        "connectAPI": "การเชื่อมต่อ API",
-        "formTable": "การจัดการหน้าฟอร์ม"
+        "testFirst": "แบบทดสอบที่ 1",
+        "testSecond": "แบบทดสอบที่ 2",
+        "testThird": "แบบทดสอบที่ 3"
     }
 }

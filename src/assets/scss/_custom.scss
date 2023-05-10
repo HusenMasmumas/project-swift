@@ -1,0 +1,126 @@
+.card-layout-sold {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid rgba(191, 191, 191, 0.733);
+    cursor: pointer;
+
+}
+
+.card-layout-sold:hover {
+    background-color: $primary_second_color;
+
+}
+
+.card-layout-sold:focus,
+.card-layout-sold:active {
+    background-color: $primary_first_color;
+}
+
+.layout-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-move-shape {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.text-move-shape {
+    background-color: $primary_first_color;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+
+// ------------------------------------    shape  ----------------------------------------
+.triangle-x {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.bg-shape {
+    background: rgb(133, 132, 132);
+}
+
+.triangle-y {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+.triangle-up {
+    @extend .triangle-x;
+    border-bottom: 90px solid rgb(133, 132, 132);
+}
+
+.triangle-down {
+    @extend .triangle-x;
+    border-top: 90px solid rgb(133, 132, 132);
+}
+
+.triangle-right {
+    @extend .triangle-y;
+    border-left: 90px solid rgb(133, 132, 132);
+}
+
+.triangle-left {
+    @extend .triangle-y;
+    border-right: 90px solid rgb(133, 132, 132);
+}
+
+.square {
+    @extend .bg-shape;
+    width: 100px;
+    height: 100px;
+
+}
+
+.circle {
+    @extend .bg-shape;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+.oval {
+    @extend .bg-shape;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+}
+
+.trapezoid {
+    border-bottom: 80px solid rgb(133, 132, 132);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 205px;
+}
+
+.rectangle {
+    @extend .bg-shape;
+    width: 200px;
+    height: 100px;
+}
+
+.parallelogram {
+    @extend .bg-shape;
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+
+}

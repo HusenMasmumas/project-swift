@@ -7,19 +7,19 @@ const menu = [
     id: 1,
     name: "homeMenu.testFirst",
     url: "/home/test-first",
-    subMenu: "homeMenu.layoutStyle",
+    subMenu: "layoutStyle",
   },
   {
     id: 2,
     name: "homeMenu.testSecond",
     url: "/home/test-second",
-    subMenu: "homeMenu.connectAPI",
+    subMenu: "connectAPI",
   },
   {
     id: 3,
     name: "homeMenu.testThird",
     url: "/home/test-third",
-    subMenu: "homeMenu.formTable",
+    subMenu: "formTable",
   },
 ];
 
@@ -45,7 +45,7 @@ const HomePage = () => {
                 goToMenu(item?.url);
               }}
             >
-              <div>{t(item?.name)}</div>
+              <div className="text-[16px]">{t(item?.name)}</div>
               <div className="pt-[20px]">{t(item?.subMenu)}</div>
             </Card>
           </Col>
