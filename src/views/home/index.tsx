@@ -28,7 +28,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const goToMenu = (link: string) => {
-    navigate(link);
+    navigate(link, { replace: true });
   };
   return (
     <Row

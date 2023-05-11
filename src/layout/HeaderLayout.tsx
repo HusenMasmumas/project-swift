@@ -10,7 +10,7 @@ const HeaderLayout = () => {
   };
   return (
     <div>
-      <div className="px-[20px] pt-[10px] flex justify-end">
+      <div className="pt-[10px] flex justify-end">
         <div className="w-[80px]">
           <CSelect
             Source={[

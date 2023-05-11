@@ -6,9 +6,32 @@
     "formTable": "การจัดการหน้าฟอร์ม",
     "moveShape": "เลื่อนรูปแบบ",
     "movePosition": "เปลี่ยนตำแหน่ง",
+    "homePage": "หน้าแรก",
     "homeMenu": {
         "testFirst": "แบบทดสอบที่ 1",
         "testSecond": "แบบทดสอบที่ 2",
         "testThird": "แบบทดสอบที่ 3"
-    }
+    },
+    "prefix": "คำนำหน้า",
+    "name": "ชื่อจริง",
+    "lastName": "นามสกุล",
+    "dateOfBirth": "วันเกิด",
+    "citizenship": "สัญชาติ",
+    "pleaseSelect": "กรุณาเลือก",
+    "idCardNumber": "เลขบัตรประชาชน",
+    "mobileNumber": "หมายเลขโทรศัพท์มือถือ",
+    "passport": "หนังสือเดินทาง",
+    "expectedSalary": "เงินเดือนที่คาดหวัง",
+    "pleaseSelectInfo": "โปรดเลือกข้อมูล!",
+    "pleaseNumberPhone": "โปรดกรอกเบอร์ให้ถูกต้อง ! ",
+    "pleaseSelectCountryCode": "โปรดเลือกรหัสประเทศ !",
+    "countryCode": "รหัสประเทศ",
+    "gender": "เพศ",
+    "manage": "จัดการ",
+    "areYouSure": "คุณแน่ใจไหม?",
+    "doYouWantToDelete": "คุณต้องการลบหรือไม่? กระบวนการนี้ไม่สามารถยกเลิกได้",
+    "selectAllData": "เลือกข้อมูลทั้งหมด",
+    "deleteData": "ลบข้อมูล",
+    "cleanup": "ล้างข้อมูล",
+    "sendInfo": "ส่งข้อมูล"
 }

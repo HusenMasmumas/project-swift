@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { Table, TableProps } from "antd";
 import styled from "styled-components";
-import CPagination from "components/pagination/Pagination";
 
 export const StyledTable = styled(Table)`
   .ant-table-thead > tr > th,
@@ -25,7 +24,7 @@ interface Props extends TableProps<any> {
 }
 
 const CTable: FC<Props> = ({
-  paginationTable = true,
+  pagination = true,
   classNamePagination,
   ...props
 }) => {
@@ -36,13 +35,7 @@ const CTable: FC<Props> = ({
         columns={props.columns}
         scroll={{ x: "calc(100vw-5%)" }}
         {...props}
-        pagination={false}
       />
-      {!!paginationTable ? (
-        <div className=" bg-white flex p-[15px] justify-end ">
-          <CPagination className={classNamePagination} />
-        </div>
-      ) : null}
     </div>
   );
 };

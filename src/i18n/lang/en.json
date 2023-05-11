@@ -6,9 +6,32 @@
     "formTable": "Form & Table",
     "moveShape": "Move shape",
     "movePosition": "Move position",
+    "homePage": "Home Page",
     "homeMenu": {
         "testFirst": "Test 1",
         "testSecond": "Test 2",
         "testThird": "Test 3"
-    }
+    },
+    "prefix": "Prefix",
+    "name": "Name",
+    "lastName": "Last name",
+    "dateOfBirth": "Date of birth",
+    "citizenship": "Citizenship",
+    "pleaseSelect": "Please select",
+    "idCardNumber": "ID Card Number",
+    "mobileNumber": "Mobile number",
+    "passport": "Passport",
+    "expectedSalary": "Expected salary",
+    "pleaseSelectInfo": "Please select!",
+    "pleaseNumberPhone": "Please enter the correct number !",
+    "pleaseSelectCountryCode": "Please select a country code. !",
+    "countryCode": "Country code",
+    "gender": "Gender",
+    "manage": "Manage",
+    "areYouSure": "Are you sure?",
+    "doYouWantToDelete": "Do you want to delete? This process cannot be cancelled",
+    "selectAllData": "Select all data",
+    "deleteData": "Delete data",
+    "cleanup": "Cleanup",
+    "sendInfo": "Send info"
 }

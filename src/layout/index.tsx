@@ -19,9 +19,9 @@ const DefaultLayout: FC<Props> = (props) => {
     sc?.current?.scrollTo({ top: 0, behavior: "smooth" });
   }, [pathname]);
   return (
-    <div className="h-[100vh]">
-      <HeaderLayout />
+    <div ref={sc} className="w-full h-[calc(100vh)] overflow-y-auto">
       <div className="px-[30px]">
+        <HeaderLayout />
         <ContentLayout />
       </div>
     </div>
